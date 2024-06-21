@@ -14,27 +14,11 @@ This repository contains the backend server for a book reviews application. The 
 
 ## Technologies Used:
 
-- Node.js (JavaScript/TypeScript)
-- Express.js (Web framework for Node.js)
-- MongoDB (Database for storing books, reviews, and user data)
-- JWT (JSON Web Tokens) for authentication
-- Mongoose (Object modeling for MongoDB)
+- Django
+- MySql (Database for storing books, reviews, and user data)
+- CSFR Token for authentication
 - RESTful API design principles
 
-## Server Endpoints:
-
-1. **Authentication**:
-   - `/api/auth/signup`: User registration endpoint.
-   - `/api/auth/login`: User login endpoint to obtain JWT tokens.
-   - `/api/auth/logout`: User logout endpoint (optional).
-
-2. **Book Reviews**:
-   - `/api/books`: CRUD operations for managing books.
-   - `/api/reviews`: CRUD operations for managing book reviews.
-   - `/api/comments`: CRUD operations for managing comments on reviews.
-
-3. **User Interaction**:
-   - `/api/users`: CRUD operations for managing user profiles and interactions.
 
 ## Deployment and Setup:
 
